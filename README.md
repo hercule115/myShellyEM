@@ -7,7 +7,7 @@ The goal of this tool is to retrieve/set information provided by a ShellyEM devi
 Results are provided as a JSON entity containing various information depending on the command provided on the cmdline:
 
 
-- Local/Standalone mode: You run the tool locally on the system where the tool is installed. If no commznd is provided on the command line, the full status of the device is provided.  
+- Local/Standalone mode: You run the tool locally on the system where the tool is installed. If no command is provided on the command line, the full status of the device is provided.  
 
 ## Examples:
 
