@@ -29,8 +29,7 @@ Results are provided as a JSON entity containing various information depending o
       -D [DELAY], --delay [DELAY]
                             update interval in minutes (default=1440, e.g. 24H)
       -I, --info            print version and exit
-      -ip X.X.X.X	    Shelly EM device IP adress. Default is 192.168.100.100
-
+      -ip X.X.X.X	        Shelly EM device IP adress. Default is 192.168.100.100
 
 
 
