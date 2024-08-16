@@ -91,6 +91,33 @@ SHELLYEM_HTTP_REQUESTS = {
         "returnText" : True,
     },
 
+    "shelly" : {
+        "name" : "shelly",
+        "info" : "Connect to ShellyEM and provide basic information (JSON)",
+        "rqst" : {
+            "type" : 'GET',
+            "url"  : 'SET-AT-RUN TIME',
+            "urltail" : '/shelly',
+            "headers" : {
+                "User-Agent"	  : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:109.0) Gecko/20100101 Firefox/115.0',
+                "Accept"          : '*/*',
+                "Accept-Encoding" : 'gzip, deflate, br',
+                "Accept-Language" : 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+                "Referer"         : 'SET-AT-RUN TIME', # 'http://192.168.100.100/',
+                "Host"            : 'SET-AT-RUN TIME', # '192.168.100.100',
+                "Cache-Control"   : 'no-cache',
+                "Connection"      : 'keep-alive',
+                "Pragma"          : 'no-cache',
+            },
+        },
+        "resp" : {
+            "code" : 200,
+            "dumpResponse" : 'shelly.json',
+            "updateCookies" : False,
+        },
+        "returnText" : True,
+    },
+
     "emeter0" : {
         "name" : "emeter0",
         "info" : "Connect to ShellyEM and get emeter data for channel 0 (JSON)",
